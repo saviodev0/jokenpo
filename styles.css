@@ -1,0 +1,70 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-weight: 700;
+}
+
+body{
+background: url(https://source.unsplash.com/1600x900/?landscape&_gl=1*1ivvela*_ga*MTg4MzE4MjcwNS4xNjc5MjU2OTQ4*_ga_37GXT4VGQK*MTY5MDMxNzg3NS4xMDAuMS4xNjkwMzE4NjE2LjAuMC4w);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+div{
+background-color: #ffffff;
+border-radius: 15px;
+border: none;
+padding: 20px;
+
+
+}
+
+h1{
+font-size: 30px;
+align-items: center;
+
+}
+
+button{
+margin: 30px 0;
+font-size: 50px;
+margin-right: 10px;
+border-radius: 10px;
+border:none;
+cursor: pointer;
+
+
+}
+
+button:hover{
+    opacity: .8;
+}
+
+#rock{
+    background-color:#12ffff ;
+}
+
+#paper{
+    background-color: #828282;
+}
+#scissors{
+    background-color:#8c3b3b ;
+}
+
+p{
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+}
+
+.scoreyou span{
+color: #12ffff;
+
+}
+
+.scoremachine span{
+    color: crimson;
+}
